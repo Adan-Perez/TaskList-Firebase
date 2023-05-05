@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         editStatus = true;
         id = doc.id;
 
-        taskForm['btn-task-save'].innerText = 'Update';
+        taskForm['btn-task-save'].innerText = 'Actualizar tarea';
       });
     });
   });
