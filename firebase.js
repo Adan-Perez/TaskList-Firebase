@@ -1,4 +1,4 @@
-import { firebaseConfig } from './config.js';
+import { firebaseConfig } from './config.js'; // Importar la configuración de Firebase desde config.js (debe crearse manualmente)
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js';
 import {
   getFirestore,
